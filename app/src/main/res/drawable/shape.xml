@@ -9,7 +9,11 @@
 
     <solid android:color="@color/cardview_dark_background"/>
 
+    <gradient android:angle="180"
+        android:startColor="@color/teal_700"
+        android:endColor="@color/white"/>
+
     <stroke android:width="3dp"
-        android:color="@color/design_default_color_primary"/>
+        android:color="@color/cardview_light_background"/>
 
 </shape>
