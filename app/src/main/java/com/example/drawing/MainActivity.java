@@ -18,6 +18,8 @@ private Button button;
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
             intent.putExtra(Intent.EXTRA_TEXT, "This is the message from implicit intent!");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "This works!");
+            startActivity(intent);
 
         });
 
